@@ -1,0 +1,2 @@
+After analyzing the three genes, we got that the distance between mouse and human is 23, the distance between random and human is 210, and the distance between mouse and random is 209. This shows that the differences between genes exist and cannot be ignored. However, according to the distance, we can see that the similarity of human genes-mouse genes is much higher than human genes-random genes and human genes-mouse genes.
+As far as I personally guess, this may be because humans and mice are both mammals and terrestrial vertebrates, so the genetic similarity will be higher.

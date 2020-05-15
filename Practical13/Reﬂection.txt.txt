@@ -1,0 +1,1 @@
+During practical 13, I think I am familiar with how to make a plot and mark any information in it. This process is a bit difficult for me, especially in terms of how to let the infection point affect the points around it. I asked my classmates for help and finally solved the problem.
