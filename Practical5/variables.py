@@ -20,3 +20,17 @@ elif a==e:
     print("a is equal to e")
 else:
     print("e is greater than a")
+
+# boolean
+X=eval(input('(Please enter True or False) X='))
+Y=eval(input('(please enter True or False which is different from X) Y='))
+Z=(X and not Y) or (Y and not X)
+W= (X!=Y)
+if X==True and Y==False:
+    print('Is Z True or False? Z=',Z)
+elif X==False and Y== True:
+    print('Is Z True or False? Z=',Z)
+if Z==W:
+    print('W and Z are the same')
+else:
+    print('W and Z are not the same')
