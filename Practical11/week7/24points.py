@@ -48,21 +48,21 @@ t([])
 
 # Select one equation from the combination 
 def y(i:int, j:int, k:int, l:list):
-    op = 0 
+    fin = 0 
     if k == 0:
-        op = l[i] + l[j]
+        fin = l[i] + l[j]
     elif k == 1:
-        op = l[i] - l[j]
+        fin = l[i] - l[j]
     elif k == 2:
-        op = l[j] - l[i]
+        fin = l[j] - l[i]
     elif k == 3:
-        op = l[i] * l[j]
+        fin = l[i] * l[j]
     elif l[j] != 0 and l[i] != 0 :
         if k == 4:
-            op = l[i] / l[j]
+            fin = l[i] / l[j]
         else:
-            op = l[j] / l[i]
-    if op == 24:
+            fin = l[j] / l[i]
+    if fin == 24:
         return (0)
     else:
         l[i] = op
